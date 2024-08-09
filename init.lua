@@ -7,9 +7,9 @@ vim.g.localleader = "\\"
 
 -- IMPORTS
 require('vars') -- Variables
-require('opts') -- Options
 require('keys') -- Keymaps
 require('plug') -- Plugins
+require('opts') -- Options
 
 -- ENABLE PLUGINS
 -- Check lua/plug.lua for details.
