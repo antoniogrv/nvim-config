@@ -1,10 +1,15 @@
 # Nvim
 
-This repository contains a straightforward configuration for Neovim.
+This repository contains a straight-forward configuration for Neovim.
 
 ```bash
 git clone git@github.com:antoniogrv/nvim-config.git .config/nvim
 ```
+
+## Requirements
+
+- `git`
+- `xclip` 
 
 ## Plugins
 
@@ -20,4 +25,4 @@ Plugins are declared and configured in `lua/plug.lua`. Plugin keybind maps are l
 
 ### Other
 
-- Markdown Preview: `markdown-preview`
+- Markdown Preview: `markdown-preview` (use `:MarkdownPreview`)

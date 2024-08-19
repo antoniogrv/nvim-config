@@ -24,7 +24,6 @@ map(
 )
 
 -- Plugin: telescope
-
 map(
 	'n',
 	'<leader>f',
@@ -33,7 +32,6 @@ map(
 )
 
 -- Default Vim re-binds
-
 map(
 	'n',
 	'<C-w>o',

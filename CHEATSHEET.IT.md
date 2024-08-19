@@ -36,7 +36,7 @@
 | `T<carattere>`              | Trasporta alla prima occorrenza (esclusa) del carattere indietro.                                    |
 | `;`                        | Porta alla prossima occorrenza.                                                                    |
 | `,`                        | Porta alla precedente occorrenza.                                                                  |
-| `y`                        | Copia il testo selezionato (yank).                                                                  |
+| `y`                        | Copia il testo selezionato (yank). Rende inoltre disponibile il testo nella clipboard del sistema, e sarà possibile incollarlo con `CTRL + v` o `<middle mouse button>`. |
 | `d`                        | Taglia il testo selezionato rientrando in normal mode (con yank).                                    |
 | `c`                        | Taglia il testo selezionato rientrando in insert mode (con yank).                                    |
 | `x`                        | Taglia il testo rimanendo in normal mode (senza yank).                                               |
