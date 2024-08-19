@@ -12,11 +12,11 @@ require('nvim-tree').setup{
 		group_empty = true, -- Renders empty folders.
 	},
 	filters = {
-	--	dotfiles = true -- Hides hidden files
+		--	dotfiles = true -- Hides hidden files
 	},
 }
 
 -- Automatically closes the filesystem tree when the main buffer gets closed.
 vim.api.nvim_create_autocmd({"QuitPre"}, {
-    callback = function() vim.cmd("NvimTreeClose") end,
+	callback = function() vim.cmd("NvimTreeClose") end,
 })

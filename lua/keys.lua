@@ -27,7 +27,18 @@ map(
 
 map(
 	'n',
-	'f',
+	'<leader>f',
 	':Telescope find_files<CR>',
 	{}
+)
+
+-- Default Vim re-binds
+
+map(
+	'n',
+	'<C-w>o',
+	'<C-w>s',
+	{
+		noremap = true,
+	}
 )
