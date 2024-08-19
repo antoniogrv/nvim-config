@@ -52,10 +52,15 @@ require('packer').startup(function(use)
 		requires = { 'nvim-lua/plenary.nvim' }
 	}
 
-use({
-    "iamcco/markdown-preview.nvim",
-    run = function() vim.fn["mkdp#util#install"]() end,
-})
+	use {
+		'f-person/git-blame.nvim',
+	}
+
+	-- Markdown preview
+	use {
+		"iamcco/markdown-preview.nvim",
+		run = function() vim.fn["mkdp#util#install"]() end,
+	}
 
 	-- {end} Custom Plugins
 
