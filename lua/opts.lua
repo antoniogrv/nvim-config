@@ -51,14 +51,15 @@ opt.clipboard = 'unnamed,unnamedplus'
 
 -- [[ Auto-formatter ]]
 -- Defines a native auto-formatter on save
-vim.api.nvim_create_autocmd("BufWritePost", {
-  pattern = "*",
-  callback = function()
-	-- We'd rather eclude the default formatter on Markdown files
-    if vim.fn.expand('%:e') ~= 'md' then
-      local pos = vim.fn.getpos(".")
-      vim.cmd("normal! gg=G")
-      vim.fn.setpos(".", pos)
-    end
-  end,
-})
+-- Disabled. Makes things more messy than it should.
+--vim.api.nvim_create_autocmd("BufWritePost", {
+--  pattern = "*",
+--  callback = function()
+--	-- We'd rather eclude the default formatter on Markdown files
+--    if vim.fn.expand('%:e') ~= 'md' then
+--      local pos = vim.fn.getpos(".")
+--      vim.cmd("normal! gg=G")
+--      vim.fn.setpos(".", pos)
+--    end
+--  end,
+--})

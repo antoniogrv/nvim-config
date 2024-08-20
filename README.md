@@ -22,7 +22,6 @@ Plugins are declared and configured in `lua/plug.lua`. Plugin keybind maps are l
 - Statusbar: `nvim-lualine`
 - Filesystem finder: `telescope` (use with `.f`)
 - Filesystem navigation: `nvim-tree` (use with `.n`)
-- Formatter: *default Neovim formatter* (temporarily)
 
 ### Other
 
