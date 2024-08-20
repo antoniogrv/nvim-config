@@ -64,4 +64,4 @@
 | `CTRL + W + v`             | Creates a new vertical *pane*.                                                                      |
 | `CTRL + W + Arrow Keys`    | Moves between *panes*.                                                                            |
 | `CTRL + W + q`             | Closes a *pane*.                                                                                   |
-
+| `D`             | Deletes up until the end of the line. |
