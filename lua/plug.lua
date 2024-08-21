@@ -72,3 +72,4 @@ end)
 -- Additional plugin configuration
 require('tree')
 require('statusbar')
+require('finder')
